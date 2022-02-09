@@ -1,9 +1,9 @@
-body html {
+body {
     margin: 0;
 }
 
 .primeira-section {
-    height: 790px;
+    height: 800px;
     background-image: url(images/bg-1.svg);
     background-repeat: no-repeat;
     background-size: 100%;
@@ -58,7 +58,7 @@ body html {
 }
 
 .segunda-section {
-    height: 810px;
+    height: 818px;
     background-image: url(images/bg-2.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -121,4 +121,23 @@ h2 {
     margin: 0 50px;
     font-family: 'Roboto Condensed', sans-serif;
     font-size: 10px;
+}
+
+footer {
+    display: flex;
+    background-color: #1cd6b16b;
+    height: 180px;
+    align-items: center;
+}
+
+footer img {
+    width: 160px;
+    height: 55px;
+    margin-left: 1.5rem;
+}
+
+footer p {
+    margin-left: 25%;
+    margin-top: 10%;
+    font-family: 'Ropa Sans', sans-serif;
 }
