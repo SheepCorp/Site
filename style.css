@@ -123,6 +123,113 @@ h2 {
     font-size: 10px;
 }
 
+.fale-conosco {
+    display: flex;
+    flex-direction: row;
+    margin: 50px 0;
+}
+
+article {
+    font-family: 'Potta One', cursive;
+    color: #334D6C;
+}
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 6rem;
+}
+
+.feedback h2 {
+    margin-top: 0;
+    margin-bottom: 100px;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 40px;
+    color: black;
+}
+
+.feedback p {
+    font-size: 12px;
+    margin-left: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+form {
+    margin-left: 4rem;
+}
+
+input {
+    width: 418px;
+    height: 43px;
+    border-radius: 25px;
+    border-color: rgba(0, 0, 0, 0.541);
+    margin-bottom: 30px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 418px;
+    height: 291px;
+    border-radius: 20px;
+    border-color: rgba(0, 0, 0, 0.541);
+}
+
+.linha {
+    margin-left: 9%;
+}
+
+.equipe {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5rem;
+}
+
+.titulo-nossa-equipe {
+    align-items: center;
+    text-align: center;
+}
+
+.equipe h2 {
+    margin-top: 0;
+    margin-bottom: 50px;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 40px;
+    color: black;
+}
+
+.equipe p {
+    width: 400px;
+    margin-left: 30px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 14px;
+}
+
+.img-txt-1 {
+    display: flex;
+    align-items: center;
+}
+
+.img-txt-2 {
+    display: flex;
+    align-items: center;
+}
+
+.ceo {
+    margin-bottom: 40px;
+}
+
+.ceo h3 {
+    margin-left: 20px;
+    font-family: 'Peralta';
+}
+
+.devs h3 {
+    margin-left: 20px;
+    font-family: 'Peralta';
+}
+
 footer {
     display: flex;
     background-color: #1cd6b16b;
