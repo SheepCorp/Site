@@ -17,10 +17,37 @@
     <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+<header>
+    <div class="header">
+        <div id="home" class="logo">
+            <a href="#"><img src="images/Logo1.svg" alt="Logo"></a>
+        </div>
+        <nav>
+            <div class="menu">
+                <a href="#home">Página Inicial</a>
+                <a href="#projetos">Projetos</a>
+                <a href="#sobre-nos">Sobre Nós</a>
+            </div>
+            <div class="fale-conosco-button">
+                <a href="#fale-conosco">Fale Conosco</a>
+            </div>
+        </nav>
+    </div>
+</header>
 
 <body>
+    <section class="page-inicial">
+        <div>
+            <h1 id="home">WELCOME TO</h1>
+            <img class="titulo-logo" src="images/title.svg" alt="">
+        </div>
+        <div class="gif-sheep">
+            <img src="images/animation_500_kzfx71e3.gif" alt="">
+        </div>
+
+    </section>
     <section class="primeira-section">
-        <div class="sobre-nos">
+        <div id="sobre-nos" class="sobre-nos">
             <div class="sobre-nos-1">
                 <img class="img-sobre-nos-1" src="images/img-1.svg" alt="imagem sobre nós 1">
                 <p class="txt-sobre-nos-1">Nós somos uma empresa de desenvolvimento de software <br> voltada para projetos em que consiguimos ajudar os novos <br> empresários, pequenas empresas, pequenos negócios. <br> <br> <br> Claro que também somos para empresas que já estão
@@ -35,8 +62,8 @@
     </section>
     <section class="segunda-section">
         <div class="titulo">
-            <h2>NOSSOS PROJETOS!</h2>
-            <p>Temos alguns projetos, que foram gerados em oração. Sentimos de Deus de desenvolver projetos voltados <br> para três ninchos, que são eles: BARBEARIA/SALÃO DE BELEZA, IGREJAS/BASES MISSIONÁRIAS e LANCHONETES.</p>
+            <h2 id="projetos">NOSSOS PROJETOS!</h2>
+            <p>Temos alguns projetos, que foram gerados em oração. Sentimos de Deus de desenvolver projetos voltados <br> para três ninchos, que são eles: <strong>BARBEARIA/SALÃO DE BELEZA</strong>, <strong>IGREJAS/BASES MISSIONÁRIAS</strong> e <strong>LANCHONETES</strong>.</p>
         </div>
         <div class="projetos">
             <div class="projeto-1">
@@ -56,7 +83,7 @@
         <p class="obs">OBS: Todos os app são padronizados, se tiver alguma alteração pode haver acréscimo no valor. </p>
     </section>
     <section class="fale-conosco">
-        <div class="feedback">
+        <div id="fale-conosco" class="feedback">
             <article>MANDE SEU</article>
             <h2> FEEDBACK!</h2>
             <form>
@@ -99,8 +126,16 @@
     </section>
     <section class="rodape">
         <footer>
+
             <img src="images/Logo.svg" alt="logo sheep">
-            <p>Todos os direitos reservados á Sheep Corporation Ltda © 2022</p>
+
+
+            <div class="redes-sociais">
+                <a href=""> <img src="images/github.svg" alt=""></a>
+                <a href=""> <img src="images/instagram.svg" alt=""></a>
+                <a href=""> <img src="images/discord.svg" alt=""></a>
+                <p>Todos os direitos reservados á Sheep Corporation Ltda © 2022</p>
+            </div>
         </footer>
     </section>
 </body>

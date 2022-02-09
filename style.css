@@ -2,6 +2,62 @@ body {
     margin: 0;
 }
 
+.logo img {
+    margin: 10px 5rem;
+    width: 150px;
+    height: 55px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    width: 100vw;
+}
+
+nav {
+    display: flex;
+    margin: 0 80px;
+}
+
+.menu a {
+    margin: 0 60px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto Condensed';
+    font-size: 18px;
+}
+
+.menu {
+    margin: 0 90px;
+}
+
+.fale-conosco-button a {
+    box-sizing: border-box;
+    margin-left: 7rem;
+    text-decoration: none;
+    padding: 7px;
+    border-radius: 5px;
+    background-color: #5FC1AD;
+    color: black;
+    font-family: 'Roboto Condensed';
+    font-size: 18px;
+}
+
+h1 {
+    margin-left: 44rem;
+    margin-top: 5rem;
+    font-family: 'Reenie Beanie', cursive;
+}
+
+.titulo-logo {
+    margin-left: 31rem;
+}
+
+.gif-sheep {
+    margin-left: 31rem;
+}
+
 .primeira-section {
     height: 800px;
     background-image: url(images/bg-1.svg);
@@ -244,7 +300,19 @@ footer img {
 }
 
 footer p {
-    margin-left: 25%;
+    margin-left: 1.5rem;
     margin-top: 10%;
     font-family: 'Ropa Sans', sans-serif;
+}
+
+.redes-sociais {
+    width: 500px;
+    text-align: center;
+    align-items: center;
+    margin-left: 18rem;
+}
+
+.redes-sociais img {
+    width: 110px;
+    height: 25px;
 }
