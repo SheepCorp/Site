@@ -46,6 +46,7 @@
 
     nav {
         display: flex;
+        flex-direction: row;
     }
 
     .menu a {
@@ -63,7 +64,6 @@
         box-sizing: border-box;
         padding: 7px;
         background-color: #B5EDEA;
-        color: #000000;
         font-family: 'Roboto Condensed';
         font-size: 18px;
         height: 45px;
@@ -347,19 +347,17 @@
 
     footer {
         display: flex;
-        background-color: #1cd6b16b;
-        height: 180px;
+        background-color: #B5EDEA;
+        height: 150px;
         align-items: center;
     }
 
     footer img {
         width: 160px;
         height: 55px;
-        margin-left: 1.5rem;
     }
 
     footer p {
-        margin-left: 1.5rem;
         margin-top: 10%;
         font-family: 'Ropa Sans', sans-serif;
     }
@@ -380,13 +378,19 @@
     }
 
     .redes-sociais {
-        width: 500px;
+        width: max-content;
+
         text-align: center;
         align-items: center;
-        margin-left: 18rem;
     }
 
     .redes-sociais img {
-        width: 110px;
+        width: 25px;
         height: 25px;
+    }
+
+    .social {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
     }
