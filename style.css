@@ -434,12 +434,12 @@
         transform: rotateY(180deg);
     }
 
-    .back span {
+    .back > span {
         align-self: center;
     }
 
-    .img-back {
+    .img-back a {
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        align-items: flex-start;
     }
