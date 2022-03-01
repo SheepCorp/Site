@@ -419,11 +419,33 @@
     footer img {
         width: 160px;
         height: 55px;
+        margin-left: 50%;
     }
     
     footer p {
+        width: 100%;
         margin-top: 10%;
+        margin-left: 10%;
         font-family: 'Ropa Sans', sans-serif;
+    }
+    
+    .redes-sociais {
+        width: max-content;
+        text-align: center;
+        align-items: center;
+        margin-left: 25%;
+    }
+    
+    .redes-sociais img {
+        width: 25px;
+        height: 25px;
+    }
+    
+    .social {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-left: 12%;
     }
     
     .wpp {
@@ -439,23 +461,5 @@
         font-size: 30px;
         box-shadow: 1px 1px 2px #888;
         z-index: 1000;
-    }
-    
-    .redes-sociais {
-        width: max-content;
-        text-align: center;
-        align-items: center;
-        margin-left: 365px;
-    }
-    
-    .redes-sociais img {
-        width: 25px;
-        height: 25px;
-    }
-    
-    .social {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
     }
     /* FINAL DO RODAPÉ */
