@@ -5,36 +5,33 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Somos uma empresa de desenvolvimento de software, voltada para ajudar e compactuar com empresas pequenas e grandes, afim de que possamos melhorar e aprimorar idéias e projetos para um salto na sua empresa!">
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <title>Sheep Corp</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Roboto+Condensed&display=swap" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Peralta&display=swap" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Ropa+Sans:ital@1&display=swap" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet"/>
-    <link rel="shortcut icon" href="images/icon.ico"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-    <link rel="stylesheet" href="style.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Roboto+Condensed&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Peralta&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Ropa+Sans:ital@1&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Reenie+Beanie&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet" />
+    <link rel="shortcut icon" href="images/icon.ico" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="style.css" />
 </head>
 <header>
-    <div class="header">
-        <div id="home" class="logo">
-            <a href="#"><img src="images/Logo1.svg" alt="Logo"></a>
-        </div>
-        <nav>
-            <div class="menu">
-                <a href="index.html">Página Inicial</a>
-                <a href="#sobre-nos">Sobre Nós</a>
-                <a href="#projetos">Projetos</a>
-            </div>
-            <div class="fale-conosco-button">
-                <a href="#fale-conosco">Fale Conosco</a>
-            </div>
-        </nav>
+    <a class="logo-image" href="#">
+        <img src="images/Logo1.svg" alt="Logo" />
+    </a>
+    <div class="menu">
+        <a href="#">Página Inicial</a>
+        <a href="#sobre-nos">Sobre Nós</a>
+        <a href="#projetos">Projetos</a>
+    </div>
+    <div class="fale-conosco-button">
+        <a href="#fale-conosco">Fale Conosco</a>
     </div>
 </header>
 
@@ -47,10 +44,11 @@
         <div class="gif-sheep">
             <img src="images/animation_500_kzfx71e3.gif" alt="">
         </div>
+        <a id="sobre-nos"></a>
     </section>
 
     <section class="primeira-section">
-        <div id="sobre-nos" class="sobre-nos">
+        <div class="sobre-nos">
             <div class="sobre-nos-1 animate__animated animate__fadeInLeft">
                 <img class="img-sobre-nos-1" src="images/img-1.svg" alt="imagem sobre nós 1">
                 <p class="txt-sobre-nos-1">Nós somos uma empresa de desenvolvimento de software <br> voltada para projetos em que consiguimos ajudar os novos <br> empresários, pequenas empresas, pequenos negócios. <br> <br> <br> Claro que também somos para empresas que já estão
@@ -59,28 +57,29 @@
             <div class="sobre-nos-2 animate__animated animate__fadeInRight">
                 <p class="txt-sobre-nos-2">Desenvolvemos para todo tipo de console. <br> Celular, notebook, desktop, tablets. <br> <br> <br> Somos voltados para aplicativos e websites, <br> mas se você precisa de algum programa ou <br> sistemas, entre em CONTATO conosco e vamos
                     <br> ter uma boa conversa.</p>
-                <img class="img-sobre-nos-2" src="images/img-2.svg " alt="imagem sobre nós 2">
+                <img class="img-sobre-nos-2" src="images/img-2.svg" alt="imagem sobre nós 2">
             </div>
         </div>
+        <a id="projetos"></a>
     </section>
 
     <section class="segunda-section">
         <div class="titulo">
-            <h2 id="projetos">NOSSOS PROJETOS!</h2>
+            <h2>NOSSOS PROJETOS!</h2>
             <p>Temos alguns projetos, que foram gerados em oração. Sentimos de Deus de desenvolver projetos voltados <br> para três ninchos, que são eles: <strong>BARBEARIA/SALÃO DE BELEZA</strong>, <strong>IGREJAS/BASES MISSIONÁRIAS</strong> e <strong>LANCHONETES</strong>.</p>
         </div>
         <div class="projetos">
-            <div class="projeto-1 animate__animated animate__zoomIn animate__delay-1s	1s">
-                <img src="images/FOTO1.svg" alt="Imagem Barbearia">
+            <div class="projeto-1 animate__animated animate__zoomIn animate__delay-1s 1s">
+                <img id="imgproj1" src="images/FOTO1.svg" alt="Imagem Barbearia">
                 <p>Esse é um projeto onde as <br> barbearias, vão poder marcar <br> e desmarcar, pagar pelo app, <br> mostrar seu serviço em fotos, <br> vídeos, mostrar promoções e <br> etc.
                 </p>
             </div>
-            <div class="projeto-2 animate__animated animate__zoomIn animate__delay-2s	2s">
-                <img src="images/FOTO2.svg" alt="Imagem Igreja">
+            <div class="projeto-2 animate__animated animate__zoomIn animate__delay-2s 2s">
+                <img id="imgproj2" src="images/FOTO2.svg" alt="Imagem Igreja">
                 <p>Esse projeto para as igrejas e <br> bases missionárias, funciona <br> para organizção. Quem é dizimista, <br> onde tem célula, dados do membro, <br> eventos, cursos, dias de cultos, etc</p>
             </div>
-            <div class="projeto-3 animate__animated animate__zoomIn animate__delay-3s	3s">
-                <img src="images/FOTO3.svg" alt="Imagem Lanchonete">
+            <div class="projeto-3 animate__animated animate__zoomIn animate__delay-3s 3s">
+                <img id="imgproj3" src="images/FOTO3.svg" alt="Imagem Lanchonete">
                 <p>Esse projeto é para lanchonetes <br> onde você tem o cardápio, tempo <br> de entrega, tem a opção de pagamento <br> pelo app, opção de entrega ou retirada.</p>
             </div>
         </div>
@@ -95,13 +94,20 @@
                 <input type="hidden" name="_next" value="http://127.0.0.1:5500/index.html">
                 <input type="hidden" name="_template" value="box">
                 <input type="hidden" name="_autoresponse" value="Recebemos sua mensagem, obrigado pelo contato e logo responderemos!">
-                <label for="nome">*Nome</label>
-                <input type="text" name="name" id="nome">
-                <label for="email">*Email</label>
-                <input type="email" name="email" id="email">
-                <label for="msg">*Mensagem</label>
-                <textarea name="mensagem" id="msg" cols="30" rows="10"></textarea>
-                <input type="submit" value="Enviar" class="submit">
+                <div class="text-input">
+                    <label for="Nome">*Nome</label>
+                    <input type="text" name="name" id="nome" />
+                </div>
+
+                <div class="text-input">
+                    <label for="email">*Email</label>
+                    <input type="email" name="email" id="email" />
+                </div>
+                <div class="text-input">
+                    <label for="msg">*Mensagem</label>
+                    <textarea name="mensagem" id="msg" cols="30" rows="10"></textarea>
+                    <input type="submit" value="Enviar" class="submit" />
+                </div>
             </form>
         </div>
         <div class="linha">
@@ -165,42 +171,91 @@
                                         <a href="https://www.instagram.com/pedro_augbs/" target="_blank" rel="external">
                                             <img src="images/instagram-line.svg" alt="Logo do Instagram">
                                             <span>pedro_augbs</span>
+                                <img src="images/lucas200.jpeg" Imagem dos Líderes ">
+        </div>
+        <div class="back cceo ">
+            <h3>Lucas Ferreira</h3>
+            <div class="img-back ">
+                <strong>
+                    <a href="https://github.com/lucaasferreira " target="_blank " rel="external ">
+                        <img src="images/github-fill.svg " alt="Logo do Github ">
+                        <span>lucaasferreira</span>
+                    </a>
+                </strong>
+                <strong>
+                    <a href="https://www.instagram.com/lucas._.ferreira/ " target="_blank " rel="external ">
+                        <img src="images/instagram-fill.svg " alt="Logo do Instagram ">
+                        <span>@lucas._.ferreira</span>
+                    </a>
+                </strong>
+            </div>
+        </div>
+        </div>
+        </div>
+        <p>"Essa empresa foi sonhada no coração de Deus e passada para mim uma vez em oração " essa foi a frase que mais ficou na cabeça do nosso CEO, e ele não desanimou e nem desistiu até que tudo estivesse pronto.
+            </div>
+        </p>
+        </div>
+        <div class="devs ">
+            <h3>DEVS</h3>
+            <div class="img-txt-2 ">
+                <div class="flip-container ">
+                    <div class="flipper ">
+                        <div class="front ">
+                            <img src="images/pedro200.png " alt="Imagem dos Devs ">
+                        </div>
+                        <div class="back ">
+                            <h3>Pedro Augusto</h3>
+                            <div class="img-back ">
+                                <strong>
+                                        <a href="https://github.com/pedro-abs " target="_blank " rel="external ">
+                                            <img src="images/github-fill.svg " alt="Logo do Github ">
+                                            <span>pedro-abs</span>
                                         </a>
                                     </strong>
-                                </div>
+                                <strong>
+                                        <a href="https://www.instagram.com/pedro_augbs/ " target="_blank " rel="external ">
+                                            <img src="images/instagram-fill.svg " alt="Logo do Instagram ">
+                                            <span>@pedro_augbs</span>
+                                        </a>
+                                    </strong>
                             </div>
                         </div>
                     </div>
                     <p>A empresa conta com a partiipação de desenvolvedores incríveis que lutaram para que tudo desse certo sem eles nada disso seria possível, e lutam todos os dias focando e trabalhando para dar o melhor para essa empresa.
                     </p>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="rodape">
-        <footer>
-            <a href="#"><img src="images/Logo.svg" alt="logo sheep"></a>
-            <div class="redes-sociais">
-                <div class="social">
-                    <a href="https://github.com/SheepCorp" rel="next" target="_blank">
-                        <img src="images/github.svg" alt="Logo do Github">
-                    </a>
-                    <a href="https://www.instagram.com/sheep.corp/" rel="next" target="_blank">
-                        <img src="images/instagram.svg" alt="Logo do Instagram">
-                    </a>
-                    <a href="" rel="next" target="_blank">
-                        <img src="images/discord.svg" alt="Logo do Discord">
-                    </a>
                 </div>
-                <p>Todos os direitos reservados à Sheep Corporation Ltda © 2022</p>
+                <p>A empresa conta com a partiipação de desenvolvedores incríveis que lutaram para que tudo desse certo sem eles nada disso seria possível, e lutam todos os dias focando e trabalhando para dar o melhor para essa empresa.
             </div>
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-            <a class="wpp animate__animated animate__pulse animate__infinite	infinite" href="https://wa.me/+5532991663535?text=Queria%20saber%20algumas%20coisas%20sobre%20os%20projetos." target="_blank">
-                <i style="margin-top:16px" class="fa fa-whatsapp"></i>
-            </a>
-        </footer>
-    </section>
-</body>
+            </p>
+        </div>
+        </div>
+        </section>
 
+        <section class="rodape ">
+            <footer>
+                <a href="# "><img src="images/Logo.svg " alt="logo sheep "></a>
+                <div class="redes-sociais ">
+                    <div class="social ">
+                        <a href="https://github.com/SheepCorp " rel="next " target="_blank ">
+                            <img src="images/github.svg " alt="Logo do Github ">
+                        </a>
+                        <a href="https://www.instagram.com/sheep.corp/ " rel="next " target="_blank ">
+                            <img src="images/instagram.svg " alt="Logo do Instagram ">
+                        </a>
+                        <a href=" " rel="next " target="_blank ">
+                            <img src="images/discord.svg " alt="Logo do Discord ">
+                        </a>
+                    </div>
+                    <p>Todos os direitos reservados à Sheep Corporation Ltda © 2022</p>
+                </div>
+                <link rel="stylesheet " href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css ">
+                <a class="wpp animate__animated animate__pulse animate__infinite infinite " href="https://wa.me/+5532991663535?text=Queria%20saber%20algumas%20coisas%20sobre%20os%20projetos. " target="_blank ">
+                    <i style="margin-top:16px " class="fa fa-whatsapp "></i>
+                </a>
+            </footer>
+        </section>
+        </body>
+        <script src="script.js "></script>
 </html>
