@@ -9,17 +9,17 @@ document.addEventListener('scroll', function(event) {
     ) {
         console.log(projeto3.getBoundingClientRect().top)
         projeto3.classList.add("animate__animated");
-        projeto3.classList.add("animate__fadeInLeft");
+        projeto3.classList.add("animate__zoomIn");
         projeto1.classList.add("animate__animated");
-        projeto1.classList.add("animate__fadeInLeft");
+        projeto1.classList.add("animate__zoomIn");
         projeto2.classList.add("animate__animated");
-        projeto2.classList.add("animate__fadeInLeft");
+        projeto2.classList.add("animate__zoomIn");
     } else {
         projeto3.classList.remove("animate__animated");
-        projeto3.classList.remove("animate__fadeInLeft");
+        projeto3.classList.remove("animate_zoomIn");
         projeto1.classList.remove("animate__animated");
-        projeto1.classList.remove("animate__fadeInLeft");
+        projeto1.classList.remove("animate_zoomIn");
         projeto2.classList.remove("animate__animated");
-        projeto2.classList.remove("animate__fadeInLeft");
+        projeto2.classList.remove("animate_zoomIn");
     }
 })
