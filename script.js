@@ -1,6 +1,9 @@
-let projeto1 = document.getElementById('imgproj1')
-let projeto2 = document.getElementById('imgproj2')
-let projeto3 = document.getElementById('imgproj3')
+let projeto1 = document.querySelector("#imgproj1")
+let projeto2 = document.querySelector("#imgproj2")
+let projeto3 = document.querySelector("#imgproj3")
+let txtprojeto1 = document.querySelector("#txtproj1")
+let txtprojeto2 = document.querySelector("#txtproj2")
+let txtprojeto3 = document.querySelector("#txtproj3")
 const sobreNos1 = document.querySelector(".sobre-nos-1")
 
 document.addEventListener('scroll', function(event) {
@@ -22,4 +25,19 @@ document.addEventListener('scroll', function(event) {
         projeto2.classList.remove("animate__animated");
         projeto2.classList.remove("animate_zoomIn");
     }
+})
+
+projeto1.addEventListener("click", () => {
+    projeto1.setAttribute('src', 'images/error2.png')
+    txtprojeto1.innerHTML = `ESSE PROJETO AINDA NÃO ESTÁ DISPONÍVEL. `
+})
+
+projeto2.addEventListener("click", () => {
+    projeto2.setAttribute('src', 'images/error2.png')
+    txtprojeto2.innerHTML = `ESSE PROJETO AINDA NÃO ESTÁ DISPONÍVEL.`
+})
+
+projeto3.addEventListener("click", () => {
+    projeto3.setAttribute('src', 'images/error2.png')
+    txtprojeto3.innerHTML = `ESSE PROJETO AINDA NÃO ESTÁ DISPONÍVEL. `
 })
