@@ -509,3 +509,46 @@
      color: #000000;
  }
  /* FINAL DO RODAPÉ */
+
+
+
+ .developers {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+     height: 250px;
+     width: 550px;
+     background-color: #B5EDEA;
+     border-radius: 20px;
+ }
+
+ :is(.developers p, .developers h3, .developers h4) {
+    margin: 0;
+    padding: 0;
+}
+
+.dev-title {
+    display: flex;
+    justify-content: center;
+}
+
+ .dev-body {
+     display: flex;
+     flex-direction: row;
+    justify-content: space-around;
+ }
+ .dev-body img {
+     width: 130px;
+     height: 130px;
+     border-radius: 20px;
+ }
+ .dev-txt {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .dev-txt p {
+    align-self: center;
+}
