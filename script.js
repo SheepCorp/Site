@@ -46,4 +46,4 @@ projeto3.addEventListener("click", () => {
 function Click() {
     let element = document.querySelector('.developers');
     element.classList.toggle("active");
-  }
+}
