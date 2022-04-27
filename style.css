@@ -552,3 +552,31 @@
  .dev-txt p {
     align-self: center;
 }
+
+.dev-front {
+    all: inherit;
+    transition: transform 0.8s;
+}
+
+.active {
+    transform: rotateY(180deg);
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.active .dev-front {
+    display: none;
+}
+
+.active .dev-back {
+    display: flex;
+}
+
+.dev-back {
+    display: none;
+}
+
+:is(.dev-front, .dev-back) {
+    position: absolute;
+}

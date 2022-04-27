@@ -41,3 +41,9 @@ projeto3.addEventListener("click", () => {
     projeto3.setAttribute('src', 'images/error2.png')
     txtprojeto3.innerHTML = `ESSE PROJETO AINDA NÃO ESTÁ DISPONÍVEL. `
 })
+
+
+function Click() {
+    let element = document.querySelector('.developers');
+    element.classList.toggle("active");
+  }
