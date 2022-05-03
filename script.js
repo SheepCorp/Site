@@ -5,6 +5,7 @@ let txtprojeto1 = document.querySelector("#txtproj1")
 let txtprojeto2 = document.querySelector("#txtproj2")
 let txtprojeto3 = document.querySelector("#txtproj3")
 const sobreNos1 = document.querySelector(".sobre-nos-1")
+const eventos = ['mouseenter', 'mouseout'] // eventos para as imagens de projeto (do mouse hover)
 
 document.addEventListener('scroll', function(event) {
     if (
@@ -27,21 +28,37 @@ document.addEventListener('scroll', function(event) {
     }
 })
 
-projeto1.addEventListener("click", () => {
-    projeto1.setAttribute('src', 'images/error2.png')
-    txtprojeto1.innerHTML = `ESSE PROJETO AINDA NÃO ESTÁ DISPONÍVEL. `
-})
+function setImage(url, projeto, elementoTexto, texto, nomeDaFoto) {
+    let urlProjetoSrc = url
 
-projeto2.addEventListener("click", () => {
-    projeto2.setAttribute('src', 'images/error2.png')
-    txtprojeto2.innerHTML = `ESSE PROJETO AINDA NÃO ESTÁ DISPONÍVEL.`
-})
+    if (urlProjetoSrc.includes('error')) {
+        projeto.setAttribute('src', `images/${nomeDaFoto}`)
+        elementoTexto.innerHTML = texto
+    } else {
+        projeto.setAttribute('src', 'images/error2.png')
+        elementoTexto.innerHTML = `PROJETO EM ANDAMENTO... `
+    }
+}
 
-projeto3.addEventListener("click", () => {
-    projeto3.setAttribute('src', 'images/error2.png')
-    txtprojeto3.innerHTML = `ESSE PROJETO AINDA NÃO ESTÁ DISPONÍVEL. `
-})
 
+eventos.map(evento => {
+
+    projeto1.addEventListener(evento, () => {
+        const txtProjeto = `Esse é um projeto onde as <br> barbearias, vão poder marcar <br> e desmarcar, pagar pelo app, <br> mostrar seu serviço em fotos, <br> vídeos, mostrar promoções e <br> etc. `
+        setImage(projeto1.src, projeto1, txtprojeto1, txtProjeto, 'FOTO1.svg')
+    })
+
+    projeto2.addEventListener(evento, () => {
+        const txtProjeto = `Esse é um projeto onde as <br> barbearias, vão poder marcar <br> e desmarcar, pagar pelo app, <br> mostrar seu serviço em fotos, <br> vídeos, mostrar promoções e <br> etc. `
+        setImage(projeto2.src, projeto2, txtprojeto2, txtProjeto, 'FOTO2.svg')
+    })
+
+    projeto3.addEventListener(evento, () => {
+        const txtProjeto = `Esse é um projeto onde as <br> barbearias, vão poder marcar <br> e desmarcar, pagar pelo app, <br> mostrar seu serviço em fotos, <br> vídeos, mostrar promoções e <br> etc. `
+        setImage(projeto3.src, projeto3, txtprojeto3, txtProjeto, 'FOTO3.svg')
+    })
+
+})
 
 function Click() {
     let element = document.querySelector('.developers');
