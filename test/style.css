@@ -4,6 +4,121 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: #000000;
+}
+
+
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1999;
+}
+
+.logo-image img {
+    width: 150px;
+    height: 55px;
+}
+/* FINAL DO HEADER */
+/* INICIO DO MENU NAV-BAR */
+
+.menu {
+    height: 100%;
+    width: 90%;
+    max-width: 500px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.menu a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+
+    width: auto;
+    color: #000000;
+    font-family: 'Roboto Condensed';
+    font-size: 18px;
+
+    background-image: 
+        linear-gradient(
+            transparent 0%,
+            transparent 90%,
+            #000000 90%,
+            #000000 100%
+        );
+        background-repeat: no-repeat;
+        background-size: 0% 100%;
+        background-position-x: right;
+        transition: background-size 300ms;
+}
+
+
+
+.menu a:hover {
+    background-size: 100% 100%;
+    background-position-x: left;
+}
+
+.fale-conosco-button a {
+    box-sizing: border-box;
+    padding: 7px;
+    background-color: #B5EDEA;
+    font-family: 'Roboto Condensed';
+    font-size: 18px;
+    height: 45px;
+    margin: 0;
+    border-radius: 15px;
+    transition: ease-in-out .1s all;
+}
+
+.fale-conosco-button a:hover {
+    box-shadow: 0 0 5px #B5EDEA, 0 0 25px #B5EDEA, 0 0 50px #B5EDEA, 0 0 200px #B5EDEA;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .img-txt-2 {
     display: flex;
     align-items: center;
