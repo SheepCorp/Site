@@ -204,6 +204,7 @@ h2 {
 }
 
 .titulo p {
+    width: 80%;
     text-align: center;
     font-family: "Roboto Condensed", sans-serif;
 }
@@ -573,5 +574,36 @@ footer p {
     }
     .page-inicial {
         width: 100%;
+    }
+
+
+    .primeira-section {
+        height: 100%;
+        text-align: center;
+    }
+    .sobre-nos-1 {
+        flex-direction: column;
+        margin: 0;
+    }
+    .txt-sobre-nos-1 {
+        margin: 0;
+    }
+    .sobre-nos-2 {
+        flex-direction: column-reverse;
+        margin: 0;
+    }
+    .txt-sobre-nos-2 {
+        height: 100%;
+        width: 100%;
+        margin: 0;
+    }
+
+
+    .segunda-section {
+        height: 100%;
+    }
+    .projetos {
+        flex-direction: column;
+        padding: 0;
     }
 }
