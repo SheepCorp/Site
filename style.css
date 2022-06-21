@@ -262,6 +262,15 @@ h2 {
     margin: 50px 0;
     justify-content: center;
 }
+.fale-conosco span {
+    align-self: center;
+    width: 5px;
+    height: 700px;
+    
+    background-color: #00000050;
+    border-radius: 9999px;
+    margin: 0 50px;
+}
 
 article {
     font-family: "Potta One", cursive;
@@ -351,10 +360,6 @@ textarea:hover {
     border: 2px solid #757575b0;
     color: black;
     background-color: #75757565;
-}
-
-.linha {
-    margin-left: 9%;
 }
 
 /* FINAL DO FORMULARIO */
@@ -605,5 +610,57 @@ footer p {
     .projetos {
         flex-direction: column;
         padding: 0;
+    }
+
+
+    .fale-conosco {
+        width: 100vw;
+        flex-direction: column;
+        text-align: center;
+    }
+    .fale-conosco span {
+        width: 90%;
+        height: 2px;
+        margin: 50px 0;
+    }
+    .feedback {
+        margin: 0;
+    }
+    .feedback form {
+        width: 90%;
+        margin: 0;
+    }
+    .text-input input {
+        width: 100%;
+    }
+    .text-input label {
+        margin: 0;
+    }
+    .text-input textarea {
+        width: 90%;
+        height: 80px;
+    }
+
+    .equipe {
+        gap: 20px 0;
+        padding: 0;
+    }
+
+
+    footer {
+        flex-direction: column;
+        height: auto;
+    }
+    footer a img {
+        margin: 15px 0;
+    }
+    .redes-sociais {
+        margin: 0;
+    }
+    .redes-sociais p {
+        margin: 0;
+    }
+    .social {
+        margin: 0;
     }
 }
