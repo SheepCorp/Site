@@ -52,7 +52,7 @@ header {
     width: auto;
     color: #000000;
     font-family: 'Roboto Condensed';
-    font-size: 18px;
+    font-size: larger;
 
     background-image: 
         linear-gradient(
@@ -87,11 +87,11 @@ header {
 }
 
 .fale-conosco-button a:hover {
-    box-shadow: 0 0 5px #B5EDEA, 0 0 25px #B5EDEA, 0 0 50px #B5EDEA, 0 0 200px #B5EDEA;
+    box-shadow: 0 0 5px #B5EDEA,
+                0 0 25px #B5EDEA,
+                0 0 50px #B5EDEA,
+                0 0 200px #B5EDEA;
 }
-
-
-
 
 
 

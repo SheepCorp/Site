@@ -60,7 +60,15 @@ eventos.map(evento => {
 
 })
 
-function Click() {
-    let element = document.querySelector('.developers');
-    element.classList.toggle("active");
+function Click(e) {
+    switch (e) {
+        case 1:
+            var element = document.querySelector(".card1");
+            element.classList.toggle("active");
+            break
+        case 2:
+            var element = document.querySelector(".card2");
+            element.classList.toggle("active");
+            break
+    }
 }
