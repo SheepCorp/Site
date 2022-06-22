@@ -1,4 +1,6 @@
-function Click() {
-    let element = document.querySelector('.flip-container');
-    element.classList.toggle("active");
+function ToggleMenu() {
+    const nav = document.querySelector('.nav')
+    const btn = document.querySelector('.btn-mobile')
+    nav.classList.toggle('active')
+    btn.classList.toggle('active')
 }

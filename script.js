@@ -70,5 +70,14 @@ function Click(e) {
             var element = document.querySelector(".card2");
             element.classList.toggle("active");
             break
+        default:
+            console.log('switch caiu no default')
     }
+}
+
+function ToggleMenu() {
+    const nav = document.querySelector('.nav')
+    const btn = document.querySelector('.btn-mobile')
+    nav.classList.toggle('active')
+    btn.classList.toggle('active')
 }

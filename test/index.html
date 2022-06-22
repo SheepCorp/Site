@@ -9,47 +9,37 @@
     <title>Document</title>
 </head>
 
-<header>
-    <a class="logo-image animate__animated animate__pulse animate__infinite infinite" href="#">
-        <img src="../images/Logo1.svg" alt="Logo" />
-    </a>
-    <div class="menu">
-        <a href="#">Página Inicial</a>
-        <a href="#sobre-nos">Sobre Nós</a>
-        <a href="#projetos">Projetos</a>
-    </div>
-    <div class="fale-conosco-button">
-        <a href="#fale-conosco">Fale Conosco</a>
-    </div>
-</header>
-
 <body>
-    <div class="devs">
-        <div class="img-txt-2">
-            <div class="flip-container">
-                <div class="flipper">
-                    <div class="front">
-                        <h3>DEV</h3>
-                        <div class="dev-body">
-                            <p>A empresa conta com a participação de desenvolvedores incríveis que lutaram para que tudo desse certo sem eles nada disso seria possível, e lutam todos os dias focando e trabalhando para dar o melhor para essa empresa.</p>
-                            <img src="../images/arrow-right-s-line.svg" alt="" class="arrow-img" onclick=Click()>
-                        </div>
-                    </div>
-                    <div class="back">
-                        <h3>Pedro Augusto</h3>
-                        <div class="dev-body">
-                            <img src="../images/pedro200.png" alt="Imagem dos Devs" class="perf-img">
-                            <div class="social">
-                                <a href=""><img src="../images/instagram-line.svg" alt=""> pedro_augbs</a>
-                                <a href=""><img src="../images/github-fill.svg" alt=""> pedro-abs</a>
-                            </div>
-                            <img src="../images/arrow-left-s-line.svg" alt="" class="arrow-img" onclick=Click()>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    <header>
+        <a class="logo" href="#">
+            Logo
+        </a>
+        <nav class='nav'>
+            <button class='btn-mobile' onClick=ToggleMenu()>
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="menu" role="menu">
+                <hr />
+                <li>
+                    <a href="#">Sobre</a>
+                </li>
+                <hr />
+                <li>
+                    <a href="#">Produtos</a>
+                </li>
+                <hr />
+                <li>
+                    <a href="#">Portfólio</a>
+                </li>
+                <hr />
+                <li>
+                    <a href="#">Contato</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
     <script src="script.js"></script>
 </body>
 
