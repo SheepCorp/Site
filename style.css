@@ -18,6 +18,7 @@ a {
     color: #000000;
 }
 
+
 /* INICIO DO HEADER */
 
 header {
@@ -53,12 +54,7 @@ a {
 
 .menu a {
     padding: 5px;
-    background-image: linear-gradient(
-        transparent 0%,
-        transparent 95%,
-        #000000 95%,
-        #000000 100%
-    );
+    background-image: linear-gradient( transparent 0%, transparent 95%, #000000 95%, #000000 100%);
     background-repeat: no-repeat;
     background-size: 0% 100%;
     background-position-x: right;
@@ -75,7 +71,10 @@ a {
     display: none;
 }
 
+
 /* FINAL DO HEADER */
+
+
 /* INICIO DA PAGINA INICIAL*/
 
 h1 {
@@ -102,7 +101,10 @@ h1 {
     justify-content: center;
 }
 
+
 /* FINAL DA PAGINA INICIAL */
+
+
 /* INCIIO DO SOBRE NÓS */
 
 .primeira-section {
@@ -139,7 +141,10 @@ h1 {
     font-family: "Roboto Condensed", sans-serif;
 }
 
+
 /* FINAL DO SOBRE NÓS */
+
+
 /*INICIO DO PROJETOS */
 
 .segunda-section {
@@ -147,7 +152,6 @@ h1 {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
-
     display: flex;
     flex-direction: column;
     gap: 90px;
@@ -199,7 +203,10 @@ h2 {
     font-size: 10px;
 }
 
+
 /* FINAL DE PROJETOS */
+
+
 /* INICIO DO FORMULARIO*/
 
 .fale-conosco {
@@ -211,7 +218,6 @@ h2 {
 .fale-conosco span {
     width: 5px;
     height: auto;
-    
     background-color: #00000050;
     border-radius: 9999px;
 }
@@ -296,7 +302,10 @@ textarea:hover {
     background-color: #75757565;
 }
 
+
 /* FINAL DO FORMULARIO */
+
+
 /* INICIO DA PARTE DA EQUIPE */
 
 .equipe {
@@ -326,7 +335,6 @@ textarea:hover {
 :is(.ceo, .devs) {
     display: flex;
     align-items: center;
-
     width: 40vw;
 }
 
@@ -370,7 +378,7 @@ textarea:hover {
     transform: rotateY(180deg);
 }
 
-.back > span {
+.back>span {
     align-self: center;
 }
 
@@ -421,7 +429,6 @@ textarea:hover {
     flex-direction: column;
     align-items: center;
     justify-content: space-evenly;
-
     height: 50%;
     width: 50%;
 }
@@ -431,7 +438,6 @@ textarea:hover {
     cursor: pointer;
     font-size: 18px;
     font-weight: bold;
-
     display: flex;
     align-self: flex-start;
     align-items: center;
@@ -442,7 +448,10 @@ textarea:hover {
     height: 30px;
 }
 
+
 /* FINAL DA PARTE DA EQUIPE */
+
+
 /* INICIO RODAPÉ DO SITE */
 
 footer {
@@ -452,7 +461,7 @@ footer {
     align-items: center;
 }
 
-footer > a > img {
+footer>a>img {
     width: 160px;
     height: 55px;
     margin-left: 50%;
@@ -500,6 +509,7 @@ footer p {
     color: #000000;
 }
 
+
 /* FINAL DO RODAPÉ */
 
 @media only screen and (max-width: 680px) {
@@ -508,7 +518,6 @@ footer p {
         flex-direction: column;
         justify-content: space-evenly;
         gap: 0;
-
         height: 40vh;
         width: 100%;
         position: absolute;
@@ -526,18 +535,15 @@ footer p {
     }
     .menu li {
         height: 100%;
-
         display: flex;
     }
     .menu a {
         display: flex;
         align-items: center;
         justify-content: center;
-
         width: 100%;
         border-bottom: 1px solid #00000010;
     }
-
     .btn-mobile {
         display: flex;
         flex-direction: column;
@@ -548,19 +554,15 @@ footer p {
         border: none;
         cursor: pointer;
     }
-
     .nav {
         text-align: center;
     }
-
     .nav a:hover {
         background: none;
     }
-
     .nav .btn-mobile {
         transition: all 0.4s ease-in-out;
     }
-
     .btn-mobile span {
         display: block;
         width: 30px;
@@ -569,38 +571,29 @@ footer p {
         background-color: #000000;
         transition: all 0.4s ease-in-out;
     }
-
     .btn-mobile span:not(:last-child) {
         margin-bottom: 7px;
     }
-
     .btn-mobile.active {
         transition-delay: 0.4s;
         transform: rotate(45deg);
     }
-
     .btn-mobile.active>span:nth-child(2) {
         width: 0;
     }
-
     .btn-mobile.active>span:nth-child(1),
     .btn-mobile.active>span:nth-child(3) {
         transition-delay: 0.2s;
     }
-
     .btn-mobile.active>span:nth-child(1) {
         transform: translateY(9px);
     }
-
     .btn-mobile.active>span:nth-child(3) {
         transform: translateY(-9px) rotate(90deg);
     }
-
-
     .page-inicial {
         width: 100%;
     }
-
     .primeira-section {
         height: 100%;
         text-align: center;
@@ -611,31 +604,24 @@ footer p {
     .sobre-nos-2 {
         flex-direction: column-reverse;
     }
-
     .img-sobre-nos-1,
     .img-sobre-nos-2 {
         width: 70%;
     }
-
-
     .segunda-section {
         height: 100%;
     }
     .projetos {
         flex-direction: column;
     }
-
     .projeto-1,
     .projeto-2,
     .projeto-3 {
         width: 70%;
     }
-
     .text-input .submit {
         width: 100%;
     }
-
-
     .fale-conosco {
         width: 100vw;
         flex-direction: column;
@@ -663,20 +649,16 @@ footer p {
         width: 100%;
         height: 150px;
     }
-
     .equipe {
         gap: 20px;
     }
-    :is(.ceo, .devs) {
+     :is(.ceo, .devs) {
         width: 90%;
     }
-
     .obs {
         margin: 0;
         text-align: center;
     }
-
-
     footer {
         flex-direction: column;
         height: auto;
