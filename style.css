@@ -6,6 +6,7 @@
 
 html {
     scroll-behavior: smooth;
+    position: relative;
 }
 
 body {
@@ -167,6 +168,7 @@ h1 {
 h2 {
     color: #2d3c71;
     font-family: "Peralta";
+    margin-bottom: 35px;
 }
 
 .titulo p {
@@ -595,8 +597,8 @@ footer p {
         width: 100%;
     }
     .ovelha-gift {
-        width: 400px;
-        height: 400px;
+        width: 350px;
+        height: 350px;
     }
     .txt-sobre-nos-1,
     .txt-sobre-nos-2 {

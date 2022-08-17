@@ -44,17 +44,17 @@ function setImage(url, projeto, elementoTexto, texto, nomeDaFoto) {
 eventos.map(evento => {
 
     projeto1.addEventListener(evento, () => {
-        const txtProjeto = `Esse é um projeto onde as <br> barbearias, vão poder marcar <br> e desmarcar, pagar pelo app, <br> mostrar seu serviço em fotos, <br> vídeos, mostrar promoções e <br> etc. `
+        const txtProjeto = `• Marcação de horários; <br> • Pagamentos através de aplicativo; <br> • Tabela de preços e serviços oferecidos; <br> • Fotos e vídeos do espaço e clientes. `
         setImage(projeto1.src, projeto1, txtprojeto1, txtProjeto, 'FOTO1.svg')
     })
 
     projeto2.addEventListener(evento, () => {
-        const txtProjeto = `Esse é um projeto onde as <br> barbearias, vão poder marcar <br> e desmarcar, pagar pelo app, <br> mostrar seu serviço em fotos, <br> vídeos, mostrar promoções e <br> etc. `
+        const txtProjeto = `• Horários de cultos;<br> • Programações Semanais;<br> • Eventos internos e Externos;<br> • Projetos Comunitários e Ministérios;<br> • Fotos e Vídeos;<br> • Lista de membros e contatos </p> `
         setImage(projeto2.src, projeto2, txtprojeto2, txtProjeto, 'FOTO2.svg')
     })
 
     projeto3.addEventListener(evento, () => {
-        const txtProjeto = `Esse é um projeto onde as <br> barbearias, vão poder marcar <br> e desmarcar, pagar pelo app, <br> mostrar seu serviço em fotos, <br> vídeos, mostrar promoções e <br> etc. `
+        const txtProjeto = `• Cardápio online através de QRCode; <br> • Delivery e rastreamento de entrega; <br> • Pagamento facilitado via Aplicativo; <br>   `
         setImage(projeto3.src, projeto3, txtprojeto3, txtProjeto, 'FOTO3.svg')
     })
 
